@@ -17,3 +17,29 @@ A RESTful API for managing online courses, user authentication, and course purch
 ```bash
 git clone <repository-url>
 cd course-management-api
+# -then next procedure what you want ?
+
+
+
+
+## Post collection
+
+To test the API, you can use the following Postman collection. Create a new collection and add these requests:
+
+## 1. Register User
+- Method: POST
+- URL: `http://localhost:5000/api/auth/register`
+
+-{
+  -"name": "John Doe",
+  "email": "john@example.com",
+  -"password": "password123",
+  -"role": "user"
+-}
+
+## Login User
+
+-http://localhost:5000/api/auth/login
+
+-get current user: http://localhost:5000/api/auth/
+
