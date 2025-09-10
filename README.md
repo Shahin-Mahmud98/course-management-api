@@ -17,12 +17,34 @@ A RESTful API for managing online courses, user authentication, and course purch
 ```bash
 git clone <repository-url>
 cd course-management-api
+
+2.  **Install dependencies:
+    npm install
+3.  **Set up environment variables:**
+Create a `.env` file in the root directory and add the following variables, replacing the placeholders with your own values:
+
+PORT=5000
+MONGO_URI=<YOUR_MONGODB_CONNECTION_STRING>
+JWT_SECRET=<YOUR_JWT_SECRET_KEY>
+
 # -then next procedure what you want ?
 
+4.  **Run the application:**
+    ```bash
+    # To run in development mode with nodemon
+    npm run dev
+
+    # or to run normally
+    node server.js
 
 
 
-## Post collection
+
+## Postman collection
+
+### API Endpoints
+
+All endpoints are prefixed with `/api`.
 
 To test the API, you can use the following Postman collection. Create a new collection and add these requests:
 
